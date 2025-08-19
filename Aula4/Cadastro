@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="" method="post">
+        <label for="Nome:">Nome:</label><br>
+        <input type="user" name="Nome"><br><br>
+        
+        <label for="Sobrenome:">Sobrenome:</label><br>
+        <input type="Sobrenome:" name="Sobrenome"><br><br>
+        
+        <label for="Email:">E-mail:</label><br>
+        <input type="email" name="email"><br><br>
+        
+        <label for="Whatsapp/Celular:"></label><br>
+        <input type="Whatsapp/Celular:" name="Whatsapp/Celular:"><br><br>
+        
+        <label for="Data de Nascimento">Data de Nascimento</label><br>
+        <input type="Data de Nascimento" name="Data de Nascimento">
+
+          <label for="CPF:">CPF:</label><br>
+        <input type="cpf:" name="CPF:" placeholder=""><br><br>
+
+
+        <label for="RG:">RG:</label><br>
+        <input type="RG:" name="RG:" placeholder=""><br><br>
+
+
+        <label for="endereço">endereço</label><br>
+        <input type="endereço" name="endereço " placeholder="Rua, avenida"><br><br>
+
+
+        <label for="Numero">Número:</label><br>
+        <input type="number" name="Numero" placeholder=""><br><br>
+
+
+        <label for="complemento">complemento:</label><br>
+        <input type="complemento" name="complemento" placeholder=""><br><br>
+
+
+        <label for="Bairro">Bairro:</label><br>
+        <input type="Bairro" name="bairro:" placeholder=""><br><br>
+
+        <label for="cidade">cidade:</label><br>
+        <input type="city" name="cidade" placeholder=""><br><br>
+
+        <label for="estado">Estado:</label><br>
+        <input type="estado" id="estado">
+        <select name="estado" id="estado">
+            <option value="ac">AC</option>
+            <option value="al">AL</option>
+            <option value="am">AM</option>
+            <option value="ap">AP</option>
+            <option value="ba">BA</option>
+            <option value="ce">CE</option>
+            <option value="df">DF</option>
+            <option value="es">ES</option>
+            <option value="go">GO</option>
+            <option value="ma">MA</option>
+            <option value="mg">MG</option>
+            <option value="ms">MS</option>
+            <option value="mt">MT</option>
+            <option value="pa">PA</option>
+            <option value="pb">PB</option>
+             <option value="pe">PE</option>
+            <option value="pi">PI</option>
+            <option value="pr">PR</option>
+            <option value="rj">RJ</option>
+            <option value="rn">RN</option>
+            <option value="ro">RO</option>
+            <option value="rr">RR</option>
+            <option value="rs">RS</option>
+            <option value="sc">SC</option>
+            <option value="se">SE</option>
+            <option value="sp">SP</option>
+            <option value="to">TO</option>
+        </select><br><br>
+
+
+
+
+
+            <label for="Data">Data:</label>
+            <input type="date" name="data"><br><br>
+
+            <button id="enviar" type="submit">Enviar</button>
+            <button id="cancelar" type="reset">Cancelar</button><br><br>
+
+             <label for="Telefone">Telefone</label>
+             <input type="Tel" name="Telefone"><br><br>
+             
+             <label for="Arquivo">Arquivo</label>
+             <input type="file" name="Arquivo">
+    </form>
+
+
+    </form>
+</body>
+</html>
