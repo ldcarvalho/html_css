@@ -1,230 +1,379 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prática de Seletores CSS</title>
-  <style>
-    
-    p {
-      color: blue;
-    }
-
-   
-    #titulo-principal {
-      background: yellow;
-    }
-
-    
-    
-    .subtitulo {
-      color: green;
-    }
-
-    
-    
-    li {
-      color: purple;
-    }
-
-    
-    
-    .caixa1 {
-      background: lightblue;
-    }
-    .caixa2 {
-      background: lightcoral;
-    }
-
-
-    p, h2, h3 {
-      color: brown;
-    }
-
-    
-    #paragrafo-centralizado {
-      text-align: center;
-    }
-
-    
-    #link1 {
-      color: red;
-    }
-    #link2 {
-      color: green;
-    }
-
-    
-    .negrito {
-      font-weight: bold;
-    }
-
-    
-   
-
-    
-    div p {
-      color: orange;
-    }
-
-    
-    .paragrafo1 {
-      color: teal;
-    }
-    .paragrafo2 {
-      color: darkmagenta;
-    }
-
-  
-    #fonte-arial {
-      font-family: Arial, sans-serif;
-    }
-
-   
-    .bold {
-      font-weight: bold;
-    }
-    .italic {
-      font-style: italic;
-    }
-    .underline {
-      text-decoration: underline;
-    }
-
-    
-    div h3 {
-      color: darkred;
-    }
-
-   
-    #box1 {
-      background: red;
-      width: 100px;
-      height: 100px;
-    }
-    #box2 {
-      background: green;
-      width: 100px;
-      height: 100px;
-    }
-    #box3 {
-      background: blue;
-      width: 100px;
-      height: 100px;
-    }
-
-    
-    .destaque {
-      color: crimson;
-    }
-
-    
-    #caixa-estilizada {
-      background: lightgray;
-      border: 2px dashed black;
-      padding: 10px;
-    }
-
-    
-    .sublink {
-      text-decoration: underline;
-    }
-
-    
-    h1, p, a {
-      color: navy;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  
-  
-  <p>Parágrafo 1</p>
-  <p>Parágrafo 2</p>
-  <p>Parágrafo 3</p>
 
-  
-  <h1 id="titulo-principal">Título Principal</h1>
+<table class="tabela1">
+    <tr>
+        <th>Item</th>
+        <th>Quantidade</th>
+    </tr>
+    <tr>
+        <td>Arroz</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Feijão</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Macarrão</td>
+        <td>3</td>
+    </tr>
+</table>
 
-  
-  <h2 class="subtitulo">Subtítulo 1</h2>
-  <h2 class="subtitulo">Subtítulo 2</h2>
-  <h2 class="subtitulo">Subtítulo 3</h2>
+<table class="tabela2">
+    <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+    </tr>
+    <tr>
+        <td>Lívia</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Daniel</td>
+        <td>18</td>
+    </tr>
+    <tr>
+        <td>Gabriela</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Gustavp</td>
+        <td>19</td>
+    </tr>
+</table>
 
-  
-  <ul>
-    <li>Item da lista 1</li>
-    <li>Item da lista 2</li>
-    <li>Item da lista 3</li>
-  </ul>
+<table class="tabela3">
+    <tr>
+        <th>Dia</th>
+        <th>Atividade</th>
+    </tr>
+    <tr>
+        <td>Segunda</td>
+        <td>Estudar</td>
+    </tr>
+    <tr>
+        <td>Terça</td>
+        <td>Trabalhar</td>
+    </tr>
+    <tr>
+        <td>Quarta</td>
+        <td>Academia</td>
+    </tr>
+    <tr>
+        <td>Quinta</td>
+        <td>Cinema</td>
+    </tr>
+    <tr>
+        <td>Sexta</td>
+        <td>Passeio</td>
+    </tr>
+</table>
 
-  
-  <div class="caixa1">Caixa Azul</div>
-  <div class="caixa2">Caixa Vermelha</div>
+<table class="tabela4">
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Categoria</th>
+    </tr>
+    <tr>
+        <td>Vestido Mara</td>
+        <td>R$ 120,90</td>
+        <td>Roupas</td>
+    </tr>
+    <tr>
+        <td>Tênis Jordan</td>
+        <td>R$ 229,98</td>
+        <td>Calçados</td>
+    </tr>
+    <tr>
+        <td>Cluch</td>
+        <td>R$ 99,90</td>
+        <td>Acessórios</td>
+    </tr>
+</table>
 
- 
-  <p>Texto com cor marrom</p>
-  <h2>Subtítulo marrom</h2>
-  <h3>Título menor marrom</h3>
+<table class="tabela5">
+    <tr>
+        <th>Aluno</th>
+        <th>Nota</th>
+    </tr>
+    <tr>
+        <td>Jullia</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>Maria</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>Abel</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Pietra</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Gustavo</td>
+        <td>8</td>
+    </tr>
+</table>
 
+<table class="tabela6">
+    <tr>
+        <th>Dia</th>
+        <th>Prato</th>
+    </tr>
+    <tr>
+        <td>Segunda</td>
+        <td>Lasanha</td>
+    </tr>
+    <tr>
+        <td>Terça</td>
+        <td>Pizza</td>
+    </tr>
+    <tr>
+        <td>Quarta</td>
+        <td>Sopa</td>
+    </tr>
+    <tr>
+        <td>Quinta</td>
+        <td>Churrasco</td>
+    </tr>
+</table>
 
-  <p id="paragrafo-centralizado">Este parágrafo está no centro</p>
+<table class="tabela7">
+    <tr>
+        <th>Horário</th>
+        <th>Matéria</th>
+    </tr>
+    <tr>
+        <td>08:00</td>
+        <td>Matemática</td>
+    </tr>
+    <tr>
+        <td>09:00</td>
+        <td>Português</td>
+    </tr>
+    <tr>
+        <td>10:00</td>
+        <td>História</td>
+    </tr>
+    <tr>
+        <td>11:00</td>
+        <td>Geografia</td>
+    </tr>
+</table>
 
- 
-  <a id="link1" href="#">Link Vermelho</a>
-  <a id="link2" href="#">Link Verde</a>
+<table class="tabela8">
+    <tr>
+        <th>Esporte</th>
+        <th>Pontos</th>
+        <th>Colocação</th>
+    </tr>
+    <tr>
+        <td>Handebol</td>
+        <td>15</td>
+        <td>1º</td>
+    </tr>
+    <tr>
+        <td>Futebol</td>
+        <td>12</td>
+        <td>2º</td>
+    </tr>
+    <tr>
+        <td>Vôlei</td>
+        <td>10</td>
+        <td>3º</td>
+    </tr>
+</table>
 
-  
-  <p class="negrito">Texto 1 em negrito</p>
-  <p class="negrito">Texto 2 em negrito</p>
-  <p class="negrito">Texto 3 em negrito</p>
+<table class="tabela9">
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+    </tr>
+    <tr>
+        <td>Leite</td>
+        <td>R$ 10,00</td>
+    </tr>
+    <tr>
+        <td>Pão</td>
+        <td>R$ 2,00</td>
+    </tr>
+    <tr>
+        <td>Café</td>
+        <td>R$ 30,00</td>
+    </tr>
+    <tr>
+        <td>Açúcar</td>
+        <td>R$ 25,90</td>
+    </tr>
+    <tr>
+        <td>Manteiga</td>
+        <td>R$ 11,55</td>
+    </tr>
+</table>
 
-  <img src="https://i.pinimg.com/1200x/4b/73/5e/4b735e2d24ae389f8700393cc7cb4d67.jpg" alt="Descrição da Imagem 1">
-    <img src="https://i.pinimg.com/1200x/6d/4e/b2/6d4eb21f80eb6559321e1a85a3fd2774.jpg" alt="Descrição da Imagem 2">
+<table class="tabela10">
+    <tr>
+        <th>Filme</th>
+        <th>Ano de Lançamento</th>
+    </tr>
+    <tr>
+        <td>As Branquelas</td>
+        <td>2004</td>
+    </tr>
+    <tr>
+        <td>Bridgerton</td>
+        <td>2020</td>
+    </tr>
+    <tr>
+        <td>O Diário da Princesa</td>
+        <td>2001</td>
+    </tr>
+    <tr>
+        <td>Todos Menos Você</td>
+        <td>2023</td>
+    </tr>
+</table>
 
-  
-  <div>
-    <p>Eu sou um parágrafo dentro da div</p>
-  </div>
+<table class="tabela11">
+    <tr>
+        <th>Fruta</th>
+        <th>Cor</th>
+    </tr>
+    <tr>
+        <td><i>Goiaba</i></td>
+        <td>Vermelha/rosa</td>
+    </tr>
+    <tr>
+        <td><i>Manga</i></td>
+        <td>Amarela</td>
+    </tr>
+    <tr>
+        <td><i>Banana</i></td>
+        <td>Amarela</td>
+    </tr>
+    <tr>
+        <td><i>Morango</i></td>
+        <td>Vermelho</td>
+    </tr>
+</table>
 
- 
-  <p class="paragrafo1">Este é o parágrafo 1 (teal)</p>
-  <p class="paragrafo2">Este é o parágrafo 2 (magenta escuro)</p>
+<table class="tabela12">
+    <tr>
+        <td><b>2x1</b></td>
+        <td><b>2x2</b></td>
+        <td><b>2x3</b></td>
+    </tr>
+    <tr>
+        <td><b>2</b></td>
+        <td><b>4</b></td>
+        <td><b>6</b></td>
+    </tr>
+    <tr>
+        <td><b>3x1</b></td>
+        <td><b>3x2</b></td>
+        <td><b>3x3</b></td>
+    </tr>
+</table>
 
-  
-  <h1 id="fonte-arial">Título em Arial</h1>
+<table class="tabela16">
+    <tr>
+        <th>Dia</th>
+        <th>Evento</th>
+        <th>Local</th>
+    </tr>
+    <tr>
+        <td>Segunda</td>
+        <td>Casamento</td>
+        <td>Salão das flores</td>
+    </tr>
+    <tr>
+        <td>Terça</td>
+        <td>Aniversário</td>
+        <td>Chácara Alves</td>
+    </tr>
+    <tr>
+        <td>Quarta</td>
+        <td>Formatura</td>
+        <td>Salão ipê</td>
+    </tr>
+</table>
 
-  
-  <p class="bold">Negrito</p>
-  <p class="italic">Itálico</p>
-  <p class="underline">Sublinhado</p>
+<table class="tabela18">
+    <tr>
+        <th>País</th>
+        <th>Capital</th>
+    </tr>
+    <tr>
+        <td>Brasil</td>
+        <td>Brasília</td>
+    </tr>
+    <tr>
+        <td>Espanha</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>Itália</td>
+        <td>Roma</td>
+    </tr>
+    <tr>
+        <td>Irlanda</td>
+        <td>Dublin</td>
+    </tr>
+</table>
 
-  
-  
-  <div>
-    <h3>Eu sou um h3 dentro da div</h3>
-  </div>
+<table class="tabela19">
+    <tr>
+        <th>Livro</th>
+        <th>Autor</th>
+    </tr>
+    <tr>
+        <td>Os Bridgertons</td>
+        <td>Julia Quinn</td>
+    </tr>
+    <tr>
+        <td>A Culpa é das Estrelas</td>
+        <td>John Green</td>
+    </tr>
+    <tr>
+        <td>Anne de Green Gables</td>
+        <td>Lucy Maud Montgomery</td>
+    </tr>
+</table>
 
-
-  <div id="box1"></div>
-  <div id="box2"></div>
-  <div id="box3"></div>
-
-
-  <p>Este é um <span class="destaque">destaque</span> dentro do parágrafo.</p>
-
-
-  <div id="caixa-estilizada">Sou uma caixa estilizada</div>
-
-
-  <a href="#" class="sublink">Link 1</a>
-  <a href="#" class="sublink">Link 2</a>
-  <a href="#" class="sublink">Link 3</a>
-
- 
-  <h1>Título com cor navy</h1>
-  <p>Parágrafo com cor navy</p>
-  <a href="#">Link com cor navy</a>
+<table class="tabela20">
+    <tr>
+        <th>Jogo</th>
+        <th>Categoria</th>
+        <th>Ano</th>
+    </tr>
+    <tr>
+        <td>Forza Horizon</td>
+        <td>Corrida</td>
+        <td>2012</td>
+    </tr>
+    <tr>
+        <td>Stumble Guys</td>
+        <td>Battle Royale</td>
+        <td>2020</td>
+    </tr>
+    <tr>
+        <td>FIFA</td>
+        <td>Esporte</td>
+        <td>1993</td>
+    </tr>
+</table>
 
 </body>
 </html>
